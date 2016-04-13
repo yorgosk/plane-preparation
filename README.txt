@@ -1,12 +1,12 @@
-Georgios Kamaras - 1115201400058
+Georgios Kamaras
 
 This project has been implemented in Linux Ubuntu, using the NetBeans development environment. It has also been successfully tested in the university's Linux Xubuntu.
 
 In a command-line environment:
-*To compile, go to: /JavaProject/JavaProject/src/javaproject
+*To compile, go to: ./src/javaproject
 and give the command:
 	javac *.java
-*To run, go to: /JavaProject/JavaProject/src
+*To run, go to: ./src
 ("cd .." from the previous directory) and give the command:
 	java javaproject.JavaProject
 
