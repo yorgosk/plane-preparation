@@ -32,7 +32,7 @@ abstract class PlaneComponent {
 
 class PassengerCompartment extends PlaneComponent {
     private boolean has_inner;          // does this passenger compartment have an inner passenger compartment
-    private PassengerCompartment inner; // the above inner passenger compartment (is it exists)
+    private PassengerCompartment inner; // the above inner passenger compartment (if it exists)
     
     PassengerCompartment(){
         this(new Random().nextBoolean());     // if a random number is even then true
